@@ -1,0 +1,631 @@
+/* Ensure body and html take full height */
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form-page {
+    max-width: 600px; /* Optional: sets a max width for the form */
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    background-color: #f9f9f9; /* Optional: form background */
+}
+/* Container for all content except footer */
+.container {
+    flex: 1; /* Expands to fill available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Footer styling */
+
+
+.footer {
+    display: flex;
+    position: relative; /* Or 'fixed' if you want it always at the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #000000;
+    padding: 40px 0;  /* Reduced padding for cleaner look */
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between text and icons */
+    max-width: 400px;  /* Adjust width as necessary */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+
+h1, h2, h3, p, ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+
+
+.background-container {
+    padding: 60px 0; /* Adds vertical padding to each section */
+}
+
+.background-container1 {
+    background-image: url('/images/img1.jpg');
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+.background-container2 {
+    background-image: url('/images/wheatstacks.jpg');
+    margin-bottom: 40px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
+}
+
+.background-container3 {
+    background-image: url('/Desktop/DESKTOP/Portfolio/images/img1.jpg');
+}
+
+.art-h1{
+color: black;
+text-align: center;
+}
+
+.art-h2{
+    color: black;
+    }
+
+
+
+/* Add this rule to center the contact form */
+/* Add this rule to center the contact form */
+.contact-container {
+    width: 50%; /* Adjust the width of the container as needed */
+    margin: 0 auto; /* Center align the container */
+    padding: 20px;
+    background-color: #fff; /* Set background color */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.contact-form-page {
+    text-align: left; /* Left align the form */
+    margin: 0 auto;
+    max-width: 600px; /* Adjust as needed */
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 40px;
+}
+
+.contact-form-page label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form-page input[type="text"],
+.contact-form-page input[type="email"],
+.contact-form-page textarea {
+    width: calc(100% - 22px); /* Adjust width for the border */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form-page input[type="submit"] {
+    background-color: #002C5B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form-page input[type="submit"]:hover {
+    background-color: #002C5B;
+}
+
+.custom-button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition effect */
+    margin-right: 30px; 
+    margin-bottom: 40px;
+    margin-top: 30px; 
+}
+
+
+
+.btn {
+    margin-bottom: 40px !important;
+    margin-top: 40px !important; 
+}
+
+/* Add this rule for the top padding of videos */
+.embed-responsive iframe {
+    padding-top: 20px;
+}
+
+.text-container {
+    text-align: left;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+/* Add this rule for the responsive paragraph of text */
+.responsive-text {
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5;
+}
+
+.audio-container {
+    text-align: left;
+    padding: 10px;
+}
+
+.overlay-content {
+    text-align: left;
+}
+
+.overlay-content h1 {
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.overlay-content h3 {
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.overlay-content button {
+    margin-top: 25px; /* Adjust margin as needed */
+}
+
+/* Add this rule to style the img element */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* To remove extra space below inline images */
+    margin: 0 auto; /* To center the image horizontally */
+}
+
+
+
+
+/* Navbar styles */
+.navbar {
+    padding: 20px 20px; 
+    background-color: #fff; /* Set your desired background color */
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+/* Navbar link styles */
+.navbar-nav {
+    margin: 0; /* Remove margin from navbar items */
+}
+
+.navbar-nav .nav-link {
+    color: #000; /* Set your desired color */
+    margin: 0; /* Remove margin from navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Set your desired hover color */
+}
+
+/* Navbar dropdown styles */
+.dropdown-menu {
+    background-color: #fff; /* Set your desired background color */
+    border: 1px solid #ddd; /* Set your desired border color */
+}
+
+/* Common styles for background containers */
+.background-container,
+.container-api,
+.footer,
+.social-icons {
+    text-align: left;
+}
+
+/* Background container styles */
+.background-container {
+    position: relative;
+    width: 100vw; /* Use 100vw for the full width of the viewport */
+    min-height: 100vh; /* Set the minimum height to cover the entire viewport */
+    margin-bottom: 0;
+    padding: 20px;
+    color: #fff;
+    background-position: center;
+    background-size: cover; /* Ensure the background image scales responsively */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically */
+}
+
+.background-container h1,
+.background-container h3,
+.background-container p {
+    margin-bottom: 10px;
+}
+/* Style the button on hover */
+.custom-button:hover {
+    background-color: #001A35; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+/* Style the collapsed state of the content */
+#readMoreText {
+    display: none; /* Hide the content by default */
+}
+
+/* Add this rule to style the Galactic Center Sonification section container */
+#galacticCenterContainer {
+    background-color: #2D2F31; /* Set black background color */
+    color: #fff; /* Set white text color */
+    margin-bottom: 0; /* Remove margin bottom for the section container */
+    padding: 40px 0; /* Add padding to the top and bottom of the section container */
+}
+
+#galacticCenterContent {
+    padding: 40px;
+}
+
+#galacticCenterContent .col-md-6 {
+    padding-right: 50px; /* Adjust padding as needed */
+}
+
+#galacticCenterContent .col-md-6:last-child {
+    padding-left: 0px; /* Adjust padding as needed */
+}
+
+
+
+@media (max-width: 393px) {
+
+    .custom-textarea {
+        width: 100% !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    
+    .btn {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important; 
+        padding: 15px;
+        margin-right: 0px !important;
+    }
+
+    .btn-primary{
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+        margin-right: 0px !important; 
+    }
+
+    .custom-button{
+        margin-bottom: 20px !important;
+        margin-right: 0px;
+    }
+    
+    .full-width-mobile {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px; /* Add margin if you need spacing between buttons */
+      }
+  
+      .text-left{
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+      }
+      .responsive-text {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 20px !important;
+    }
+
+    .art-h1 {
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        color: #000000 !important;
+      }
+    
+      .art-h2 {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        color: #000000;
+      }
+      
+      .art-h1w {
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        color: #ffffff;
+      }
+}
+@media (min-width: 394px) and (max-width: 768px) {
+    
+    .custom-textarea {
+        width: 100% !important;
+        margin-bottom: 0px;
+    }
+    .btn {
+        margin-bottom: 20px !important;
+        margin-top: 0px !important; 
+        padding: 15px;
+    }
+
+    .btn-primary{
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+    }
+
+    .custom-button{
+        margin-bottom: 20px !important;
+    }
+    
+    .full-width-mobile {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px; /* Add margin if you need spacing between buttons */
+      }
+  
+
+      .responsive-text {
+        font-size: 16px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 20px !important;
+    }
+
+    .art-h1 {
+        font-size: 40px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        color: #000000 !important;
+      }
+    
+      .art-h2 {
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        color: #000000;
+      }
+      
+      .art-h1w {
+        font-size: 40px !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 32px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        color: #ffffff;
+      }
+
+    h1{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+    }
+/* Add a class to the body element of your contact page */
+.contact-page {
+    background-color: #f2f2f2; /* Set background color */
+}
+
+.custom-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 769px)  {
+    .submitbutton{
+        margin-top: 60px !important;
+      }
+    .custom-img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .custom-textarea {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 0px !important; 
+    }
+
+    .btn-primary{
+        margin-right: 20px !important;
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+    }
+
+    .custom-button{
+        margin-bottom: 40px;
+    }
+    
+
+      .responsive-text {
+        font-size: 18px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 0px !important;
+        margin-top: 40px !important;
+    }
+
+    .text-left{
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+    }
+
+    .art-h1 {
+        font-size: 40px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #000000 !important;
+      }
+    
+      .art-h2 {
+        font-size: 32px !important;
+        margin-bottom: 40px !important;
+        margin-top: 0px;
+        color: #000000;
+      }
+      
+      .art-h1w {
+        font-size: 40px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #ffffff !important;
+      }
+    
+      .art-h2w {
+        font-size: 36px !important;
+        margin-bottom: 40px !important;
+        margin-top: 0px;
+        color: #ffffff;
+      }
+
+    h1{
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    
+
+}
+
+@media (min-width: 1440px)  {
+    .custom-textarea {
+        width: 100% !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .responsive-text {
+        font-size: 18px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 0px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .text-left{
+        margin-bottom: 0px !important;
+    }
+
+    .custom-textarea {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .btn-primary{
+        color: #ffffff !important;
+        background-color: #000000;
+        border: #000000;
+        margin-right: 20px;
+    }
+
+    .custom-button{
+        margin-bottom: 40px !important;
+    }
+    
+
+      .responsive-text {
+        font-size: 18px; /* Adjust font size as needed */
+        line-height: 1.5;
+        margin-bottom: 0px !important;
+    }
+
+    .art-h1 {
+        font-size: 48px !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px !important;
+        color: #000000 !important;
+      }
+    
+      .art-h2 {
+        font-size: 36px !important;
+        margin-bottom: 40px !important;
+        margin-top: 0px;
+        color: #000000;
+      }
+      
+     
+
+    h1{
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .submitbutton{
+        margin-top: 30px !important;
+      }
+    
+
+}
