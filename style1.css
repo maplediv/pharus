@@ -8,6 +8,9 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+.listleft{
+    text-align: left;
+}
 .footer-text {
     font-size: 16px;
   }
