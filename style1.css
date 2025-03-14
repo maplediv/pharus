@@ -8,6 +8,11 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+
+.custom-img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 .listleft{
     text-align: left;
 }
@@ -83,7 +88,14 @@ h1 {
 
   h2 {
     font-size: 36px !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 20px !important;
+    margin-top: 30px;
+    color: #000000;
+  }
+
+  h3 {
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
     margin-top: 0px;
     color: #000000;
   }
@@ -438,6 +450,13 @@ img {
         margin-top: 0px;
         color: #000000;
       }
+
+      h3 {
+        font-size: 18px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        color: #000000;
+      }
       
     
 }
@@ -495,6 +514,13 @@ img {
         margin-top: 0px;
         color: #000000;
       }
+
+      h3 {
+        font-size: 20px !important;
+        margin-bottom: 20px !important;
+        margin-top: 0px;
+        color: #000000;
+      }
       
       
 
@@ -504,10 +530,7 @@ img {
     background-color: #f2f2f2; /* Set background color */
 }
 
-.custom-img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
     .submitbutton{
         margin-top: 60px !important;
