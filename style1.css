@@ -8,6 +8,20 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+.footer-text {
+    font-size: 16px;
+  }
+
+.text-center p {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;  /* Centers the text */
+    text-align: center; /* Ensures proper alignment */
+    line-height: 1.6;
+  }
+
+p {
+    font-size: 22px;
+  }
 
 
 .custom-textarea {
@@ -143,31 +157,6 @@ h1 {
     margin-bottom: 20px;
     padding-left: 0;
 }
-
-
-
-.background-container {
-    padding: 60px 0; /* Adds vertical padding to each section */
-}
-
-.background-container1 {
-    background-image: url('/images/img1.jpg');
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
-}
-
-.background-container2 {
-    background-image: url('/images/wheatstacks.jpg');
-    margin-bottom: 40px !important;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) !important;
-}
-
-.background-container3 {
-    background-image: url('/Desktop/DESKTOP/Portfolio/images/img1.jpg');
-}
-
-
 
 
 
@@ -384,6 +373,12 @@ img {
 
 
 @media (max-width: 394px) {
+    .footer-text {
+        font-size: 12px;
+      }
+    p {
+        font-size: 16px;
+      }
 
     .custom-textarea {
         width: 100% !important;
@@ -444,6 +439,12 @@ img {
     
 }
 @media (min-width: 394px) and (max-width: 768px) {
+    .footer-text {
+        font-size: 14px;
+      }
+    p {
+        font-size: 18px;
+      }
     
     .custom-textarea {
         width: 100% !important;
