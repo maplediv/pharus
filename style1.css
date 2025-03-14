@@ -8,6 +8,77 @@ html, body {
     display: flex;
     flex-direction: column;
 }
+
+
+.custom-textarea {
+    width: 100% !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.responsive-text {
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.5;
+    margin-bottom: 0px !important;
+    margin-bottom: 40px !important;
+}
+
+.text-left{
+    margin-bottom: 0px !important;
+}
+
+.custom-textarea {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+.btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-primary{
+    color: #ffffff !important;
+    background-color: #000000;
+    border: #000000;
+    margin-right: 20px;
+}
+
+.custom-button{
+    margin-bottom: 40px !important;
+}
+
+
+  .responsive-text {
+    font-size: 18px; /* Adjust font size as needed */
+    line-height: 1.5;
+    margin-bottom: 0px !important;
+}
+
+h1 {
+    font-size: 48px !important;
+    margin-bottom: 40px !important;
+    margin-top: 40px !important;
+    color: #000000 !important;
+  }
+
+  h2 {
+    font-size: 36px !important;
+    margin-bottom: 40px !important;
+    margin-top: 0px;
+    color: #000000;
+  }
+  
+
+
+  .submitbutton{
+    margin-top: 30px !important;
+  }
+
+
+
 .contact-form-page {
     max-width: 600px; /* Optional: sets a max width for the form */
     width: 100%;
@@ -67,7 +138,7 @@ html, body {
 }
 
 
-h1, h2, h3, p, ul {
+ p, ul {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 0;
@@ -96,14 +167,7 @@ h1, h2, h3, p, ul {
     background-image: url('/Desktop/DESKTOP/Portfolio/images/img1.jpg');
 }
 
-.art-h1{
-color: black;
-text-align: center;
-}
 
-.art-h2{
-    color: black;
-    }
 
 
 
@@ -273,7 +337,7 @@ img {
     min-height: 100vh; /* Set the minimum height to cover the entire viewport */
     margin-bottom: 0;
     padding: 20px;
-    color: #fff;
+    
     background-position: center;
     background-size: cover; /* Ensure the background image scales responsively */
     display: flex;
@@ -319,7 +383,7 @@ img {
 
 
 
-@media (max-width: 393px) {
+@media (max-width: 394px) {
 
     .custom-textarea {
         width: 100% !important;
@@ -363,33 +427,21 @@ img {
         margin-bottom: 20px !important;
     }
 
-    .art-h1 {
-        font-size: 32px !important;
+    h1 {
+        font-size: 38px !important;
         margin-bottom: 20px !important;
         margin-top: 20px !important;
         color: #000000 !important;
       }
     
-      .art-h2 {
-        font-size: 24px !important;
+      h2 {
+        font-size: 21px !important;
         margin-bottom: 20px !important;
         margin-top: 0px;
         color: #000000;
       }
       
-      .art-h1w {
-        font-size: 32px !important;
-        margin-bottom: 20px !important;
-        margin-top: 20px !important;
-        color: #ffffff !important;
-      }
     
-      .art-h2w {
-        font-size: 24px !important;
-        margin-bottom: 20px !important;
-        margin-top: 0px;
-        color: #ffffff;
-      }
 }
 @media (min-width: 394px) and (max-width: 768px) {
     
@@ -426,41 +478,23 @@ img {
         margin-bottom: 20px !important;
     }
 
-    .art-h1 {
-        font-size: 40px !important;
+    h1 {
+        font-size: 41px !important;
         margin-bottom: 20px !important;
         margin-top: 20px !important;
         color: #000000 !important;
       }
     
-      .art-h2 {
-        font-size: 32px !important;
+      h2 {
+        font-size: 23px !important;
         margin-bottom: 20px !important;
         margin-top: 0px;
         color: #000000;
       }
       
-      .art-h1w {
-        font-size: 40px !important;
-        margin-bottom: 20px !important;
-        margin-top: 20px !important;
-        color: #ffffff !important;
-      }
+      
+
     
-      .art-h2w {
-        font-size: 32px !important;
-        margin-bottom: 20px !important;
-        margin-top: 0px;
-        color: #ffffff;
-      }
-
-    h1{
-        font-size: 40px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-
-    }
 /* Add a class to the body element of your contact page */
 .contact-page {
     background-color: #f2f2f2; /* Set background color */
@@ -471,7 +505,6 @@ img {
     margin-bottom: 20px;
 }
 
-@media (min-width: 769px)  {
     .submitbutton{
         margin-top: 60px !important;
       }
@@ -516,116 +549,7 @@ img {
         margin-top: 40px !important;
     }
 
-    .art-h1 {
-        font-size: 40px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
-        color: #000000 !important;
-      }
-    
-      .art-h2 {
-        font-size: 32px !important;
-        margin-bottom: 40px !important;
-        margin-top: 0px;
-        color: #000000;
-      }
-      
-      .art-h1w {
-        font-size: 40px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
-        color: #ffffff !important;
-      }
-    
-      .art-h2w {
-        font-size: 36px !important;
-        margin-bottom: 40px !important;
-        margin-top: 0px;
-        color: #ffffff;
-      }
-
-    h1{
-        font-size: 40px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-      }
-    
-
 }
 
-@media (min-width: 1440px)  {
-    .custom-textarea {
-        width: 100% !important;
-        margin-bottom: 0px !important;
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
-
-    .responsive-text {
-        font-size: 18px; /* Adjust font size as needed */
-        line-height: 1.5;
-        margin-bottom: 0px !important;
-        margin-bottom: 40px !important;
-    }
-
-    .text-left{
-        margin-bottom: 0px !important;
-    }
-
-    .custom-textarea {
-        padding-bottom: 0px !important;
-        margin-bottom: 0px !important;
-    }
-    .btn {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .btn-primary{
-        color: #ffffff !important;
-        background-color: #000000;
-        border: #000000;
-        margin-right: 20px;
-    }
-
-    .custom-button{
-        margin-bottom: 40px !important;
-    }
+  
     
-
-      .responsive-text {
-        font-size: 18px; /* Adjust font size as needed */
-        line-height: 1.5;
-        margin-bottom: 0px !important;
-    }
-
-    .art-h1 {
-        font-size: 48px !important;
-        margin-bottom: 40px !important;
-        margin-top: 40px !important;
-        color: #000000 !important;
-      }
-    
-      .art-h2 {
-        font-size: 36px !important;
-        margin-bottom: 40px !important;
-        margin-top: 0px;
-        color: #000000;
-      }
-      
-     
-
-    h1{
-        font-size: 48px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-      }
-
-      .submitbutton{
-        margin-top: 30px !important;
-      }
-    
-
-}
