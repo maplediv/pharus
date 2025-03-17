@@ -9,9 +9,21 @@ html, body {
     flex-direction: column;
 }
 
+.logo {
+    width: 60%;  /* Adjust based on container size */
+    max-width: 60px;  /* Set a reasonable max size */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+
 .custom-img {
     margin-top: 40px;
     margin-bottom: 40px;
+        width: 100%;   /* Makes image responsive */
+        max-width: 150px;  /* Prevents it from being too large */
+        height: auto;  /* Maintains aspect ratio */
+        display: block; /* Removes extra space below inline images */
+
 }
 .listleft{
     text-align: left;
