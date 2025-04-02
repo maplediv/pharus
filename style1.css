@@ -1,12 +1,12 @@
 /* Ensure body and html take full height */
-
 html, body {
     height: 100%;
-    overflow-x: hidden;
-    width: 100%;
+    min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .logo {
@@ -32,6 +32,7 @@ html, body {
 }
 .footer-text {
     font-size: 16px;
+    font-weight: 400;
   }
 
 .text-center p {
@@ -79,7 +80,7 @@ p {
     color: #ffffff !important;
     background-color: #000000;
     border: #000000;
-    margin-right: 20px;
+    
 }
 
 .custom-button{
@@ -133,36 +134,34 @@ h1 {
 }
 /* Container for all content except footer */
 .container {
-    flex: 1; /* Expands to fill available space */
+    flex: 1 0 auto; /* This ensures the container takes up available space */
+}
+
+/* Center align only the main content containers */
+.container-fluid > div, 
+.text-center {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 /* Footer styling */
-
-
 .footer {
-    display: flex;
-    position: relative; /* Or 'fixed' if you want it always at the bottom of the viewport */
-    bottom: 0;
-    left: 0;
+    flex-shrink: 0;
     width: 100%;
     background-color: #f8f9fa;
     color: #000000;
-    padding: 40px 0;  /* Reduced padding for cleaner look */
-    margin-top: 50px;
-    font-family: 'Roboto', sans-serif;
+    padding: 40px 0;
+    margin-top: auto;
 }
-
 
 .footer .container {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Space between text and icons */
-    max-width: 400px;  /* Adjust width as necessary */
+    justify-content: space-between;
+    max-width: 400px;
     margin: 0 auto;
     padding: 0 20px;
 }
